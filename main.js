@@ -5,12 +5,17 @@ const numeroUno = Number(prompt("Inserisci il primo numero"))
 console.log(numeroUno)
 const numeroDue = Number(prompt("Inserisci il secondo numero"))
 console.log(numeroDue)
+
+
  if (numeroUno < numeroDue){
     console.log(numeroDue)
- }
- else if (numeroUno > numeroDue)
+ } else if (numeroUno > numeroDue){
     console.log(numeroUno)
-else (numeroUno == numeroDue)
- console.log("The numbers is equal")
 
+ } else {
+    console.log("The numbers is equal")
+ }
+
+
+ 
 
