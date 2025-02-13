@@ -10,5 +10,7 @@ console.log(numeroDue)
  }
  else if (numeroUno > numeroDue)
     console.log(numeroUno)
+else (numeroUno == numeroDue)
+ console.log("The numbers is equal")
 
 
